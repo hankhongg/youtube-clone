@@ -28,6 +28,9 @@
     margin-left: 30px;
     margin-right: 30px;
 }
+.menu:hover{
+    cursor: pointer;
+}
 .youtube-logo{
     height: 27px;
 }

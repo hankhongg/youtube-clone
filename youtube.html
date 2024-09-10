@@ -7,15 +7,17 @@
         <link rel="stylesheet" href="styles/header.css">
         <link rel = "stylesheet" href = "styles/sidebar.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     </head>
     <body style="padding-bottom: 1000px">
         
         <div class="header">
             <div class = "left-section">
                 <img class = "menu" src = "icons/hamburger-menu.svg">
-                <img class = "youtube-logo" src = "icons/youtube-logo.svg">
+                <a href = "youtube.html">
+                    <img class = "youtube-logo" src = "icons/youtube-logo.svg">
+                </a>
             </div>
             <div class = "middle-section">
                 <input class ="search-box" type = "text box" placeholder="Search">
@@ -76,20 +78,41 @@
         <div class = "video-grid">
             <div class = "video-preview">
                 <div class = "thumbnail-row">
-                    <img class = "thumbnail" src = "thumbnails/aot.png">
+                    <a target = "_blank" href = "youtube_videos/aot.html">
+                        <img class = "thumbnail" src = "thumbnails/aot.png">
+                    </a>
                     <div class = "duration">3:20</div>
                 </div>
                 <div class = "video-info-grid">
                     <div class = "channel-pictures">
-                        <img class = "avatar" src = "channel-avatars/photo.jpg"> 
+                        <a target = "_blank" href = "https://www.youtube.com/@PONYCANYON_anime">
+                            <div class = "channel">
+                            <img class = "avatar" src = "channel-avatars/photo.jpg"> 
+                                <div class = "tooltip">
+                                    <img class = "avatar" style = "width: 55px; height: 55px;" src = "channel-avatars/photo.jpg">
+                                    <div class = "tooltip-info">
+                                        <p class = "tooltip-titles" style = "font-weight: bold">
+                                           Khong Han
+                                        </p>
+                                        <p class = "tooltip-titles" style = "color: gray; font-size: 13px;">
+                                            3.5M Subcribers
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
                     </div>
                     <div class = "video-info">
-                        <p class = "video-title">
-                            進撃の巨人　―　ED
-                        </p>
-                        <p class = "video-author">
-                            Khong Han
-                        </p>
+                        <a target = "_blank" href = "youtube_videos/aot.html" class = "video-titles">
+                            <p class = "video-title">
+                                進撃の巨人　―　ED
+                            </p>
+                        </a>
+                        <a target = "_blank" href = "https://www.youtube.com/@PONYCANYON_anime" class = "video-titles">
+                            <p class = "video-author">
+                                Khong Han
+                            </p>
+                        </a>
                         <p class = "video-stat">
                             3.5M views &#183; 3 months ago
                         </p>
@@ -99,20 +122,41 @@
     
             <div class = "video-preview">
                 <div class = "thumbnail-row">
-                    <img class = "thumbnail" src = "thumbnails/lis.jpg">
+                    <a href = "youtube_videos/lis.html" target = "_blank">
+                        <img class = "thumbnail" src = "thumbnails/lis.jpg">
+                    </a>
                     <div class = "duration">1:00:20</div>
                 </div>
                 <div class = "video-info-grid">
                     <div class = "channel-pictures">
-                        <img class = "avatar" src = "channel-avatars/z.jpg">
+                        <a target = "_blank" href = "https://www.youtube.com/@jacksepticeye">
+                            <div class = "channel">
+                                <img class = "avatar" src = "channel-avatars/z.jpg"> 
+                                    <div class = "tooltip">
+                                        <img class = "avatar" style = "width: 55px; height: 55px;" src = "channel-avatars/z.jpg">
+                                        <div class = "tooltip-info">
+                                            <p class = "tooltip-titles" style = "font-weight: bold">
+                                               Hanaika
+                                            </p>
+                                            <p class = "tooltip-titles" style = "color: gray; font-size: 13px;">
+                                                100K Subcribers
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                        </a>
                     </div>
                     <div class = "video-info">
-                        <p class = "video-title">
-                            Life is Strange Episode 1
-                        </p>
-                        <p class = "video-author">
-                            Hanaika
-                        </p>
+                        <a target = "_blank" href = "youtube_videos/lis.html" class = "video-titles">
+                            <p class = "video-title">
+                                Life is Strange Episode 1
+                            </p>
+                        </a>
+                        <a target = "_blank" href = "https://www.youtube.com/@jacksepticeye" class = "video-titles">
+                            <p class = "video-author">
+                                Hanaika
+                            </p>
+                        </a>
                         <p class = "video-stat">
                             100K views &#183; 5 years ago
                         </p>
@@ -122,20 +166,41 @@
     
             <div class = "video-preview">
                 <div class = "thumbnail-row">
-                    <img class = "thumbnail" src = "thumbnails/ghibli.jpg">
+                    <a href = "youtube_videos/ghibli.html" target = "_blank">
+                        <img class = "thumbnail" src = "thumbnails/ghibli.jpg">
+                    </a>
                     <div class = "duration">2:50:20</div>
                 </div>
                 <div class = "video-info-grid">
                     <div class = "channel-pictures">
-                        <img class = "avatar" src = "channel-avatars/cat.jpg"> 
+                        <a target = "_blank" href = "https://www.youtube.com/@ThaoTran-wi1fj">
+                            <div class = "channel">
+                                <img class = "avatar" src = "channel-avatars/cat.jpg"> 
+                                    <div class = "tooltip">
+                                        <img class = "avatar" style = "width: 55px; height: 55px;" src = "channel-avatars/cat.jpg">
+                                        <div class = "tooltip-info">
+                                            <p class = "tooltip-titles" style = "font-weight: bold">
+                                                hacked
+                                            </p>
+                                            <p class = "tooltip-titles" style = "color: gray; font-size: 13px;">
+                                                25K Subcribers
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                        </a>
                     </div>
                     <div class = "video-info">
-                        <p class = "video-title">
-                            Ghibli movies free no charges etc
-                        </p>
-                        <p class = "video-author">
-                            hacked
-                        </p>
+                        <a target = "_blank" href = "youtube_videos/ghibli.html" class = "video-titles">
+                            <p class = "video-title">
+                                Ghibli movies free no charges etc
+                            </p>
+                        </a>
+                        <a target = "_blank" href = "https://www.youtube.com/@ThaoTran-wi1fj" class = "video-titles">
+                            <p class = "video-author">
+                                hacked
+                            </p>
+                        </a>
                         <p class = "video-stat">
                             1.5M views &#183; 1 month ago
                         </p>
@@ -145,20 +210,43 @@
     
             <div class = "video-preview">
                 <div class = "thumbnail-row">
-                    <img class = "thumbnail" src = "thumbnails/makima.jpg">
+                    <a href = "youtube_videos/chainsaw.html" target = "_blank">
+                        <img class = "thumbnail" src = "thumbnails/makima.jpg">
+                    </a>
                     <div class = "duration">22:34</div>
                 </div>
                 <div class = "video-info-grid">
                     <div class = "channel-pictures">
-                        <img class = "avatar" src = "channel-avatars/gohann.png">
+                        <a target = "_blank" href = "https://www.youtube.com/@lehakhanhphuong5769">
+                            <div class = "channel">
+                                <img class = "avatar" src = "channel-avatars/gohann.png"> 
+                                    <div class = "tooltip">
+                                        <img class = "avatar" style = "width: 55px; height: 55px;" src = "channel-avatars/gohann.png">
+                                        <div class = "tooltip-info">
+                                            <p class = "tooltip-titles" style = "font-weight: bold">
+                                                pop tv
+                                            </p>
+                                            <p class = "tooltip-titles" style = "color: gray; font-size: 13px;">
+                                                120K Subcribers
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                        </a>
                     </div>
                     <div class = "video-info">
-                        <p class = "video-title">
-                            Chainsaw Man EP2
-                        </p>
-                        <p class = "video-author">
-                            pop tv
-                        </p>
+                        <a target = "_blank" href = "youtube_videos/chainsaw.html" class = "video-titles">
+                            <p class = "video-title">
+                                Chainsaw Man EP2
+                            </p>
+                        </a>
+
+                        <a target = "_blank" href = "https://www.youtube.com/@lehakhanhphuong5769" class = "video-titles">
+                            <p class = "video-author">
+                                pop tv
+                            </p>
+                        </a>
+
                         <p class = "video-stat">
                             120K views &#183; 1 year ago
                         </p>
@@ -168,20 +256,42 @@
     
             <div class = "video-preview">
                 <div class = "thumbnail-row">
-                    <img class = "thumbnail" src = "thumbnails/scenery.jpg">
+                    <a href = "youtube_videos/scenery.html" target = "_blank">
+                        <img class = "thumbnail" src = "thumbnails/scenery.jpg">
+                    </a>
                     <div class = "duration">5:21</div>
                 </div>
                 <div class = "video-info-grid">
                     <div class = "channel-pictures">
-                        <img class = "avatar" src = "channel-avatars/duck.jpg"> 
+                        <a target = "_blank" href = "https://www.youtube.com/@SYNIXVisual">
+                            <div class = "channel">
+                                <img class = "avatar" src = "channel-avatars/duck.jpg"> 
+                                    <div class = "tooltip">
+                                        <img class = "avatar" style = "width: 55px; height: 55px;" src = "channel-avatars/duck.jpg">
+                                        <div class = "tooltip-info">
+                                            <p class = "tooltip-titles" style = "font-weight: bold">
+                                               Adventurer
+                                            </p>
+                                            <p class = "tooltip-titles" style = "color: gray; font-size: 13px;">
+                                                1 Subcriber
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                        </a>
                     </div>
                     <div class = "video-info">
-                        <p class = "video-title">
-                            Scenery photos + videos
-                        </p>
-                        <p class = "video-author">
-                            Adventurer
-                        </p>
+                        <a target = "_blank" href = "youtube_videos/scenery.html" class = "video-titles">
+                            <p class = "video-title">
+                                Scenery photos + videos
+                            </p>
+                        </a>
+                        <a target = "_blank" href = "https://www.youtube.com/@SYNIXVisual" class = "video-titles">
+                            <p class = "video-author">
+                                Adventurer
+                            </p>
+                        </a>
+
                         <p class = "video-stat">
                            2 views &#183; 1 hour ago
                         </p>
@@ -191,20 +301,43 @@
     
             <div class = "video-preview">
                 <div class = "thumbnail-row">
-                    <img class = "thumbnail" src = "thumbnails/yourname.png">
+                    <a href = "youtube_videos/your-name.html" target = "_blank">
+                        <img class = "thumbnail" src = "thumbnails/yourname.png">
+                    </a>
                     <div class = "duration">2:30:20</div>
                 </div>
                 <div class = "video-info-grid">
                     <div class = "channel-pictures">
-                        <img class = "avatar" src = "channel-avatars/hk.jpg">
+                        <a href = "https://www.youtube.com/@tubeclips1113" target = "_blank">
+                            <div class = "channel">
+                                <img class = "avatar" src = "channel-avatars/hk.jpg"> 
+                                    <div class = "tooltip">
+                                        <img class = "avatar" style = "width: 55px; height: 55px;" src = "channel-avatars/hk.jpg">
+                                        <div class = "tooltip-info">
+                                            <p class = "tooltip-titles" style = "font-weight: bold">
+                                                旅人
+                                            </p>
+                                            <p class = "tooltip-titles" style = "color: gray; font-size: 13px;">
+                                                100M Subcribers
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                        </a>
                     </div>
                     <div class = "video-info">
-                        <p class = "video-title">
-                            君の名は　全部映画！
-                        </p>
-                        <p class = "video-author">
-                            旅人
-                        </p>
+                        <a target = "_blank" href = "youtube_videos/your-name.html" class = "video-titles">
+                            <p class = "video-title">
+                                君の名は　全部映画！
+                            </p>
+                        </a>
+
+                        <a target = "_blank" href = "https://www.youtube.com/@tubeclips1113" class = "video-titles">
+                            <p class = "video-author">
+                                旅人
+                            </p>
+                        </a>
+
                         <p class = "video-stat">
                             302K views &#183; 2 months ago
                         </p>
